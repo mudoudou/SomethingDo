@@ -19,7 +19,7 @@ public class TestJdbc {
 			conn = DriverManager.getConnection(DB_URL, USER, PASS);
 			String sql = "select id, first, last, age from employees where id=?";
 			stm = conn.prepareStatement(sql);
-			stm.setInt(1, 100);
+			stm.setInt(1, 1);
 			ResultSet rs = stm.executeQuery();
 			while(rs.next()){
 				//Retrieve by column name
