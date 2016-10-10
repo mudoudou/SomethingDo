@@ -4,10 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 
-//1、按字节读取文件内容  
-//2、按字符读取文件内容  
-//3、按行读取文件内容  
-//4、随机读取文件内容  
+  
 public class ReadFromFile {
 
 	/** 
