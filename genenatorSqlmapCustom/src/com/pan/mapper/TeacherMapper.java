@@ -1,7 +1,7 @@
 package com.pan.mapper;
 
-import cn.itcast.ssm.po.Teacher;
-import cn.itcast.ssm.po.TeacherExample;
+import com.pan.po.Teacher;
+import com.pan.po.TeacherExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

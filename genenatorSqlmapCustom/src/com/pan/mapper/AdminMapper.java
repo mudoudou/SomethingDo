@@ -1,7 +1,7 @@
 package com.pan.mapper;
 
-import cn.itcast.ssm.po.Admin;
-import cn.itcast.ssm.po.AdminExample;
+import com.pan.po.Admin;
+import com.pan.po.AdminExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

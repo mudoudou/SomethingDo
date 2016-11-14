@@ -1,8 +1,8 @@
 package com.pan.mapper;
 
-import cn.itcast.ssm.po.News;
-import cn.itcast.ssm.po.NewsExample;
-import cn.itcast.ssm.po.NewsKey;
+import com.pan.po.News;
+import com.pan.po.NewsExample;
+import com.pan.po.NewsKey;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
